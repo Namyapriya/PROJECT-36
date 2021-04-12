@@ -36,7 +36,9 @@ function setup() {
 
 function draw() {
   background(46,139,87);
-
+  fill(255,255,255);
+  textSize(15);
+  text("MINKU THE DOG ", 200, 60);
   foodObj.display();
 
   fedTime = database.ref('FeedTime');
